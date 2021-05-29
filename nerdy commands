@@ -1,0 +1,20 @@
+# Made by TeaClient
+command /Delete:
+  permission: fake.delete.cmd
+  permission message: "&cYou can't do this!"
+	trigger:
+    send "&aScript made by &2TeaClient"
+    wait 2 seconds
+		send "&c&lCrashing &4&lAnd deleting &c&lserver" to player
+		wait 1 second
+		play sound "entity.villager.yes" to player
+		send "&c&l3..."
+		wait 1 second
+		play sound "entity.villager.yes" to player
+		send "&c&l2..."
+		wait 1 second
+		play sound "entity.villager.yes" to player
+		send "&c&l1..."
+		wait 1 second
+		play sound "entity.villager.yes" to player
+		kick the player due to "&aSuccessfully deleted server! &3&lAnd opped &6&l%player%"
