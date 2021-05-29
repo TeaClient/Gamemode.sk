@@ -1,0 +1,2 @@
+# Gamemode.sk
+im good
